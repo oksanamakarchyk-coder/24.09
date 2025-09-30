@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <title>Форма зворотнього зв'язвку</title>
+        <header>
+            <img src="img/1.webp" alt="логотип" width="200" height="200" border="1">
+            <h1><strong>Фаховий коледж технологій, бізнесу та права</strong></h1>
+        </header>
+<form action="#" method="post">
+    <p>
+        <nav>
+        <a href="#1">Перейти до заповнення форми</a>
+        </nav>
+    </p>
+<body>
+<main>
+    <section>
+    <table border="1">
+        <th>Розклад пар</th>
+        <tr>
+            <th scope="col">Пара</th>
+             <th scope="col">Час</th>
+        </tr>
+        <tr>
+             <th scope="row">1</th>
+            <td>8.30-9.50</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>10.00-11.20</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>11.40-13.00</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>13.30-14.50</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>15.00-16.20</td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td>16.40-18.00</td>
+        </tr>
+    </table>
+    </section>
+</main>
+    <p>
+        <strong><label id="1">Форма зворотнього зв'язку</label></strong>
+         <form action="#" method="post">
+        <ul>
+        <li><label for="name">Ім`я:</label>
+        <input type="text" id="name" aria-required="true" aria-describedby="nameError"></li>
+        <span id="nameError" class="error" role="alert" hidden>Введіть ім'я</span>
+
+        <li><label for="surname">Прізвище:</label>
+        <input type="text" id="surname" aria-required="true"></li>
+        <span id="surnameError" class="error" role="alert" hidden>Введіть прізвище</span>
+
+        <li><label for="idk">По батькові:</label>
+        <input type="text" id="idk" aria-required="true"></li>
+        <span id="idkError" class="error" role="alert" hidden>Введіть по батькові</span>
+
+        <li><label for="email">Email:</label>
+        <input type="email" id="email" aria-required="true"></li>
+        <span id="emailError" class="error" role="alert" hidden>Введіть емайл</span>
+
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" aria-required="true"></textarea>
+        <span id="messageError" class="error" role="alert" hidden>Введіть повідомлення</span>
+        </ul>
+        <button type="submit">Надіслати дані</button>
+        </form>
+        </section>
+    </p>
+     <article>
+            <h2>Оголошення</h2>
+            <p>Просимо всіх зареєструватися на нашому сайті.</p>
+        </article>
+        <footer>
+        <p>&copy; 2025 Фаховий коледж технологій, бізнесу та права</p>
+    </footer>
+</body>
+</html>
